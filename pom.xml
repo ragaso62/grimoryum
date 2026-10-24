@@ -1,8 +1,8 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.lucas</groupId>
-    <artifactId>MeuPlugon</artifactId>
-    <version>1.0.0</version>
+    <artifactId>MeuPlugin</artifactId>
+    <version>2.3.5</version>
     <packaging>jar</packaging>
 
     <properties>

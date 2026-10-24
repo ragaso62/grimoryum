@@ -11,10 +11,21 @@ public class DadosColet {
     private final OperatingSystemMXBean os =
             (OperatingSystemMXBean) ManagementFactory.getOperatingSystemMXBean();
 
+    private long ultimoCpuNs = os.getProcessCpuTime();
+    private long ultimoTempoNs = System.nanoTime();
     public  double cpuPercent() {
-        double v = os.getProcessCpuLoad();
-        if (v < 0) return  0;
-        return v * Runtime.getRuntime().availableProcessors() * 100;
+        long cpuNs = os.getProcessCpuTime();
+        long agora = System.nanoTime();
+
+        long usado = cpuNs - ultimoCpuNs;
+        long decorrido = agora - ultimoTempoNs;
+        ultimoCpuNs = cpuNs;
+        ultimoTempoNs = agora;
+
+        if(cpuNs < 0 || decorrido <= 0) return 0;
+
+        double cores = Runtime.getRuntime().availableProcessors();
+        return Math.min(100.0, usado * 100.0 / decorrido / cores);
     }
     public int ramUsadaMb() {
         Runtime r = Runtime.getRuntime();
