@@ -1,4 +1,4 @@
-package com.lucas;
+package com.grimoryum;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

@@ -1,4 +1,4 @@
-package com.lucas;
+package com.grimoryum;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -15,7 +15,7 @@ import net.kyori.adventure.text.format.NamedTextColor;
 public class DarPeitoralCommand implements CommandExecutor {
     private final NamespacedKey chave;
     
-    public DarPeitoralCommand(MeuPlugin plugin){
+    public DarPeitoralCommand(Grimoryum_Plugin plugin){
         this.chave = new NamespacedKey(plugin, "beserker");
     }
 

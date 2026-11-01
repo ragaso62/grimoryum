@@ -1,8 +1,7 @@
-package com.lucas;
+package com.grimoryum;
 
 import java.sql.*;
 import java.time.LocalDateTime;
-import java.time.ZoneOffset;
 import java.util.ArrayList;
 import java.util.List;
 

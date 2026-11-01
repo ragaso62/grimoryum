@@ -1,4 +1,4 @@
-package com.lucas;
+package com.grimoryum;
 
 
 import org.bukkit.Bukkit;
@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 
 // JavaPlugin é a classe base que todo plugin Paper/Bukkit precisa estender
-public class MeuPlugin extends JavaPlugin {
+public class Grimoryum_Plugin extends JavaPlugin {
 
     private ItemKeys itemKeys;
 

@@ -1,4 +1,4 @@
-package com.lucas;
+package com.grimoryum;
 
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;

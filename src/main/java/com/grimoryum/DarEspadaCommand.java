@@ -1,4 +1,4 @@
-package com.lucas;
+package com.grimoryum;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
@@ -15,7 +15,7 @@ import net.kyori.adventure.text.format.NamedTextColor;
 public class DarEspadaCommand implements CommandExecutor {
     private final NamespacedKey chave;
     
-    public DarEspadaCommand(MeuPlugin plugin){
+    public DarEspadaCommand(Grimoryum_Plugin plugin){
         this.chave = new NamespacedKey(plugin, "espada_especial");
     }
 
