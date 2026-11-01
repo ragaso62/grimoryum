@@ -7,7 +7,7 @@ public class ItemKeys {
     public final NamespacedKey fortuneBlock;
     public final NamespacedKey blockBreak;
 
-    public ItemKeys(Grimoryum_Plugin plugin) {
+    public ItemKeys(GrimoryumPlugin plugin) {
         this.espadaEspecial = new NamespacedKey(plugin, "espada_especial");
         this.beserker = new NamespacedKey(plugin, "beserker");
         this.fortuneBlock = new NamespacedKey(plugin, "fortune_block");

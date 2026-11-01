@@ -1,6 +1,6 @@
-name: Grimoryum_plugin
+name: GrimoryumPlugin
 version: 1.0
-main: com.grimoryum.Grimoryum_plugin
+main: com.grimoryum.GrimoryumPlugin
 api-version: '1.21'
 
 libraries:

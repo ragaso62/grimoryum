@@ -15,7 +15,7 @@ import net.kyori.adventure.text.format.NamedTextColor;
 public class DarEspadaCommand implements CommandExecutor {
     private final NamespacedKey chave;
     
-    public DarEspadaCommand(Grimoryum_Plugin plugin){
+    public DarEspadaCommand(GrimoryumPlugin plugin){
         this.chave = new NamespacedKey(plugin, "espada_especial");
     }
 

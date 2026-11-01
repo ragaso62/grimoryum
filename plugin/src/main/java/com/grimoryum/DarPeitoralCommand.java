@@ -15,7 +15,7 @@ import net.kyori.adventure.text.format.NamedTextColor;
 public class DarPeitoralCommand implements CommandExecutor {
     private final NamespacedKey chave;
     
-    public DarPeitoralCommand(Grimoryum_Plugin plugin){
+    public DarPeitoralCommand(GrimoryumPlugin plugin){
         this.chave = new NamespacedKey(plugin, "beserker");
     }
 
