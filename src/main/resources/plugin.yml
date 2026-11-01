@@ -1,0 +1,13 @@
+name: Grimoryum_plugin
+version: 1.0
+main: com.grimoryum.Grimoryum_plugin
+api-version: '1.21'
+
+libraries:
+  - com.mysql:mysql-connector-j:9.7.0
+
+commands:
+  darespada:
+    description: Dá a espada especial com efeito de lentidão
+  darpeitoral:
+    description: Dá o peitoral especial com efeito de regeneração

@@ -1,0 +1,6 @@
+database:
+  host: DB_URL
+  port: 3306
+  name: DB_NAME
+  user: DB_USER
+  password: DB_PASSWORD
